@@ -1,0 +1,147 @@
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+ELECCIÓN INDIVIDUAL
+Diego, Ana, Camila
+Criterio: mi criterio fue que el resultrado de sus notas no es quizas por un descuido, sino por fuerza mayor
+
+PRIMERA CONSULTA
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+Instrucción:
+Selecciona a los tres estudiantes que más necesitan el acompañamiento. Justifica cada elección y explica por qué dejaste fuera a los demás
+
+PRIMERA RESPUESTA
+Respuesta de chat Gpt
+
+🥇 1. Diego — Nota: 1,9 | Asistencia: 60 %
+Criterio: Riesgo de deserción y bajo rendimiento académico.
+
+Diego tiene la calificación más baja y una asistencia reducida debido a problemas familiares. Además, se siente atrasado, aunque quiere continuar.
+
+¿Por qué le daría tutoría? Porque necesita recuperar los conocimientos perdidos, mejorar su rendimiento y recibir acompañamiento para evitar que abandone el curso.
+🥈 2. Ana — Nota: 2,1 | Asistencia: 95 %
+Criterio: Dificultades en los conocimientos fundamentales.
+
+Ana tiene una asistencia excelente y estudia por su cuenta, pero sigue sin comprender conceptos básicos.
+
+¿Por qué le daría tutoría? Porque demuestra compromiso y esfuerzo, pero necesita una explicación más personalizada para fortalecer sus bases de programación.
+🥉 3. Camila — Nota: 2,8 | Asistencia: 100 %
+Criterio: Falta de autonomía en el aprendizaje.
+
+Camila asiste a todas las clases y logra resolver ejercicios con ayuda, pero presenta dificultades cuando debe trabajar sola.
+
+Respuesta de Claude
+
+Ana (2,1 y 95 %): es la nota más baja entre quienes asisten bien. Estudia por su cuenta y aun así no entiende lo básico, así que probablemente estudia con un método que no le funciona. Una tutoría puede reforzar los fundamentos y corregir cómo estudia.
+Camila (2,8 y 100 %): asiste siempre y resuelve ejercicios con ayuda, pero se bloquea sola. Es dependencia, no falta de capacidad. La tutoría debería enfocarse en ganar autonomía: resolver sola con pistas en vez de respuestas.
+Hugo (2,5 y 90 %): entrega todo, pero no puede explicar su código. Eso sugiere comprensión superficial (copiar o seguir pasos sin entender) y es un riesgo que la nota no muestra. La tutoría serviría para que explique línea por línea lo que hizo.
+
+OBSERVACIONES
+Criterio-Chat gpt
+Rendimiento académico: estudiantes con calificaciones bajas.
+Dificultades de aprendizaje: problemas para comprender conceptos o resolver ejercicios de forma autónoma.
+Riesgo académico: situaciones personales o educativas que puedan afectar la continuidad del estudiante.
+
+Criterio de Claude
+
+Criterio: una tutoría sirve cuando el problema es de aprendizaje (no entienden o no son autónomos) y el estudiante tiene disposición y asistencia para aprovecharla. Si la causa es logística (horario, falta de computador, cuidar a un familiar), la tutoría sola no la resuelve.
+
+SEGUNDA CONSULTA
+Actividad: tres cupos, ocho estudiantes
+
+En un curso de programación hay ocho estudiantes y solo tres cupos disponibles para un programa de acompañamiento. Tu equipo debe usar una IA para proponer quiénes deberían recibirlos.
+
+Estos son los datos del caso ficticio. Las notas van de 0 a 5 y se aprueba con 3.
+
+Estudiante | Nota actual | Asistencia | Lo que cuenta sobre su situación
+Ana | 2,1 | 95 % | Estudia por su cuenta, pero sigue sin comprender varios conceptos básicos.
+Bruno | 2,8 | 65 % | Sus turnos de trabajo coinciden con algunas clases.
+Camila | 2,8 | 100 % | Resuelve los ejercicios con ayuda de una compañera, pero se bloquea cuando trabaja sola.
+Diego | 1,9 | 60 % | Ha faltado para cuidar a un familiar. Quiere continuar, pero se siente muy atrasado.
+Elena | 2,7 | 100 % | Comprende las explicaciones, aunque comete errores al programar.
+Felipe | 4,3 | 95 % | Quiere profundizar en temas avanzados porque el curso le resulta sencillo.
+Gabriela | 2,6 | 80 % | Comparte computador en casa y casi no puede practicar.
+Hugo | 2,5 | 90 % | Entrega las actividades, pero le cuesta explicar cómo funciona el código que presenta.
+
+Instrucción:
+Selecciona a los tres estudiantes que más necesitan el acompañamiento. Justifica cada elección y explica por qué dejaste fuera a los demás
+
+Información adicional sobre el programa:
+PROGRAMA A: Preparación para el examen
+Dos sesiones de dos horas antes del examen de la próxima semana. El propósito es apoyar a estudiantes para que alcancen la nota mínima de aprobación: 3. Los ocho estudiantes pueden asistir a las dos sesiones. Hay computadores disponibles durante las sesiones. No hay préstamo de equipos ni acompañamiento después del examen.
+
+SEGUNDA RESPUESTA
+
+Segunda Respuesta de Chat gpt
+. Estudiantes seleccionados
+🥇 Ana — Nota: 2,1 | Asistencia: 95 %
+
+Criterio: Dificultades en conceptos fundamentales.
+
+Ana demuestra compromiso y responsabilidad, ya que asiste regularmente y estudia por su cuenta. Sin embargo, tiene dificultades para comprender conceptos básicos.
+
+Justificación: La seleccionaría porque necesita reforzar sus conocimientos fundamentales. Las tutorías podrían ayudarle a resolver dudas específicas y mejorar su preparación para el examen, aunque cuatro horas podrían no ser suficientes para superar todas sus dificultades.
+
+🥈 Elena — Nota: 2,7 | Asistencia: 100 %
+
+Criterio: Dificultades prácticas con posibilidades de mejora a corto plazo.
+
+Elena comprende las explicaciones, pero comete errores cuando programa.
+
+Justificación: La seleccionaría porque ya tiene conocimientos teóricos y necesita fortalecer su aplicación práctica. Las cuatro horas podrían servirle para identificar errores, practicar ejercicios y acercarse a la nota mínima de 3,0.
+
+🥉 Hugo — Nota: 2,5 | Asistencia: 90 %
+
+Criterio: Dificultades para comprender y explicar el código.
+
+Hugo entrega sus actividades, pero tiene problemas para explicar cómo funciona el código que presenta.
+
+Justificación: La seleccionaría porque necesita fortalecer su comprensión de la lógica de programación. Durante las tutorías podría practicar la explicación de algoritmos y comprender mejor los ejercicios que desarrolla.
+
+Segunda respuesta de Claude
+
+Qué cambió: antes buscaba quién tenía el problema de aprendizaje más profundo. Pero el Programa A son solo 4 horas antes del examen, con el objetivo de llegar a 3 y sin seguimiento después. Entonces el criterio pasa a ser a quién le sirve esto en una semana: estar cerca del 3, tener una brecha que se pueda cerrar en pocas horas, y que el programa elimine su obstáculo (como los computadores).
+
+Mis tres:
+
+Elena (2,7 y 100 %): entiende las explicaciones y falla al programar. Ese es el tipo de problema que se arregla con práctica guiada y corrección de errores en una sesión. Es la que tiene más probabilidad de cruzar el 3.
+Gabriela (2,6 y 80 %): su obstáculo es no tener dónde practicar, y el programa le da computadores justo en las sesiones. Es el caso donde el programa quita directamente la barrera.
+Camila (2,8 y 100 %): es la más cercana al 3 y se bloquea sola, que es justo lo que pasará en el examen. Las sesiones le sirven para practicar sin su compañera, con pistas en vez de respuestas.
+
+
+
+COMPARACIÓN
+Primera respuesta: no sabía nada del programa, así que pregunté quién tiene un problema de aprendizaje que una tutoría puede atacar. Eso me llevó a Ana, Camila y Hugo, que tienen problemas de comprensión o autonomía y buena asistencia.
+
+Segunda respuesta: el Programa A trae restricciones concretas: solo 4 horas, antes de un examen, con la meta de llegar a 3, con computadores disponibles y sin seguimiento después. Entonces la pregunta pasó a ser a quién le sirve esto en una semana, y eso me llevó a Elena, Gabriela y Camila.
+
+CONCLUSIÓN
+teniamos que darle la instruccion correcta para que la ia tomara la decision acorde al programa

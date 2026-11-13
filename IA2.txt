@@ -1,0 +1,524 @@
+PROYECTO IA – PARCHE
+Ayder Arrieta Ricardo
+Julian Guanume Zapata
+Juan Miguel López Cardona
+Felipe Rojas
+ENLACE DEL PROYECTO – PARCHE
+https://pixel-perfect-replay-89861.lovable.app
+PROMPTS UTILIZADOS
+1. Primero se utiliza un prompt para chatgpt en el cual se le pide la ayuda para crear un prompt
+con la idea que se tiene en mente del proyecto dandole una pequeña y corta descripcion
+Hazme un prompt que funcione como una billetera virtual con la función de revolut de “dividir
+una compra” y “cuenta conjunta” usando la funcion de tap to pay (nfc) y las llaves de bre-b
+2. Despues se utiliza el prompt suministrado para darselo a Lovable :
+PROYECTO: PARCHE — FINANZAS COMPARTIDAS
+Quiero desarrollar una aplicación fintech llamada PARCHE, enfocada en facilitar los pagos, la
+administración de dinero compartido y la división de gastos entre personas en Colombia.
+PARCHE debe combinar las mejores experiencias de Revolut, Splitwise y Apple Wallet,
+creando un ecosistema financiero social donde las personas puedan dividir cuentas,
+compartir dinero, crear bolsillos conjuntos, administrar cuentas compartidas y realizar pagos
+entre ellas.
+La funcionalidad más innovadora será PARCHE TAP: un sistema que convierte el celular de
+una persona en un datáfono digital para cobrar una factura entre múltiples participantes,
+permitiendo que cada uno pague su parte mediante tarjeta o QR interoperable de Bre-B.
+No quiero una página informativa ni una landing page. Quiero una aplicación web completa,
+interactiva, funcional y responsive, con un diseño fintech premium.
+1. IDENTIDAD VISUAL Y DISEÑO
+Nombre: PARCHE.
+Eslogan: "La plata compartida, sin complicaciones".
+Personalidad de marca:
+Moderna.
+Joven.
+Confiable.
+Minimalista.
+Tecnológica.
+Cercana al público colombiano.
+Inspiración visual:
+Revolut.
+Apple Wallet.
+Splitwise.
+Nubank.
+Wise.
+Diseño:
+Mobile-first.
+Interfaz minimalista y premium.
+Tarjetas financieras modernas.
+Bordes redondeados.
+Animaciones fluidas.
+Transiciones suaves.
+Iconografía Lucide.
+Tipografía Inter.
+Excelente jerarquía visual.
+Paleta:
+Azul oscuro: #172554.
+Verde: #16A36A.
+Fondo: #F7F8FA.
+Blanco: #FFFFFF.
+Gris: #8A94A6.
+Rojo: #EF4444.
+La moneda predeterminada será COP (peso colombiano).
+Utilizar formato colombiano: $120.000 $1.250.000 $15.000.000
+Toda la aplicación debe estar en español.
+2. ESTRUCTURA PRINCIPAL DE LA APLICACIÓN
+Crear una navegación principal con las siguientes secciones:
+Inicio.
+Parche Bills.
+Parche Tap.
+Bolsillos.
+Cuentas conjuntas.
+Transferencias.
+Actividad.
+Perfil.
+En escritorio utilizar un menú lateral.
+En móviles utilizar una barra de navegación inferior con los accesos principales.
+La experiencia debe ser sencilla y permitir acceder a las funciones principales en pocos
+segundos.
+3. DASHBOARD PRINCIPAL
+Crear un dashboard financiero personalizado.
+Mostrar:
+RESUMEN:
+Saldo disponible de demostración.
+Dinero en bolsillos compartidos.
+Dinero que me deben.
+Dinero que debo.
+Gastos compartidos del mes.
+ACCESOS RÁPIDOS:
+Dividir cuenta.
+Iniciar cobro con PARCHE TAP.
+Crear bolsillo.
+Crear cuenta conjunta.
+Enviar dinero.
+Solicitar dinero.
+ACTIVIDAD RECIENTE: Mostrar movimientos con:
+Nombre de la persona.
+Avatar.
+Concepto.
+Fecha.
+Importe.
+Estado.
+Añadir tarjetas visuales para los bolsillos y cuentas compartidas más utilizados.
+4. PARCHE BILLS — DIVISOR DE CUENTAS
+Crear un sistema inspirado en Group Bills de Revolut.
+Permitir crear una cuenta compartida entre varias personas.
+FLUJO:
+Pulsar "Dividir cuenta".
+Introducir el nombre del gasto.
+Introducir el importe total.
+Seleccionar categoría.
+Añadir participantes.
+Elegir el método de división.
+Confirmar la creación.
+CATEGORÍAS:
+Restaurantes.
+Mercado.
+Viajes.
+Transporte.
+Vivienda.
+Entretenimiento.
+Servicios.
+Otros.
+MÉTODOS DE DIVISIÓN:
+A. Partes iguales.
+B. Cantidades personalizadas.
+C. Porcentajes.
+D. Por productos consumidos.
+E. Una persona paga por varios participantes.
+Ejemplo:
+Cena de amigos.
+Total: $300.000.
+Participantes: 5.
+Cada persona debe pagar: $60.000.
+Mostrar una interfaz con:
+Importe total.
+Participantes.
+Importe individual.
+Estado de pago.
+Total recaudado.
+Dinero pendiente.
+ESTADOS:
+Pendiente.
+Pago parcial.
+Pagado.
+Incluir:
+Solicitar dinero.
+Recordatorios.
+Compartir enlace.
+Añadir participantes.
+Modificar importes.
+Registrar pagos.
+Cerrar cuenta.
+Cada participante debe poder consultar su parte de la factura.
+5. PARCHE TAP — SMART SOCIAL POS
+ESTA ES LA FUNCIONALIDAD PRINCIPAL Y MÁS IMPORTANTE DEL PROYECTO.
+Quiero que PARCHE TAP funcione como un datáfono digital multipersona.
+El celular de una persona se convierte en un terminal de cobro desde el que puede recibir los
+pagos de varias personas para completar una misma factura.
+No debe confundirse con un simple envío de dinero ni con un QR convencional.
+Debe funcionar como un sistema de cobro grupal inteligente.
+5.1. INICIAR UN COBRO
+Crear una pantalla llamada "Nuevo cobro".
+El anfitrión podrá configurar:
+Nombre del establecimiento.
+Concepto del cobro.
+Valor total de la factura.
+Número de participantes.
+Tipo de división.
+Métodos de pago aceptados.
+TIPOS DE DIVISIÓN:
+División igualitaria.
+División personalizada.
+División por porcentajes.
+División por consumo individual.
+Importe libre por participante.
+Ejemplo:
+Restaurante: La Terraza.
+Total: $450.000.
+Participantes: 5.
+Valor individual: $90.000.
+Después de configurar el cobro, pulsar:
+"INICIAR PARCHE TAP".
+5.2. SELECCIÓN DE MÉTODOS DE PAGO
+El anfitrión podrá seleccionar los métodos de pago que acepta.
+OPCIÓN 1: TARJETA.
+Preparar una integración con un proveedor de pagos que permita aceptar tarjetas.
+La experiencia debe contemplar:
+Pago con tarjeta.
+Checkout seguro.
+Confirmación de transacción.
+Estado del pago.
+Comprobante.
+Si se implementa posteriormente mediante NFC físico, preparar la arquitectura para una
+solución SoftPOS compatible.
+OPCIÓN 2: BRE-B QR.
+Crear una experiencia de cobro mediante QR interoperable.
+Flujo:
+Generar una solicitud de pago mediante un proveedor financiero participante.
+Mostrar el QR en el datáfono.
+El participante escanea el QR desde su aplicación bancaria.
+Confirma el pago.
+El proveedor confirma la transacción.
+PARCHE actualiza automáticamente el estado.
+No utilizar un QR estático genérico como si fuera una integración real de Bre-B.
+Preparar la arquitectura para recibir confirmaciones mediante webhooks.
+OPCIÓN 3: SALDO PARCHE.
+Preparar una futura integración con un saldo o billetera de PARCHE.
+En la primera versión será una simulación.
+El anfitrión podrá habilitar uno o varios métodos de pago para una misma sesión.
+5.3. MODO DATÁFONO
+Esta pantalla debe ser una de las más atractivas de toda la aplicación.
+Al iniciar un cobro, el teléfono del anfitrión se convierte visualmente en un datáfono digital.
+Mostrar a pantalla completa:
+Nombre del establecimiento.
+Importe total.
+Dinero recaudado.
+Dinero pendiente.
+Número de participantes.
+Participantes que ya pagaron.
+Participantes pendientes.
+Código QR de pago.
+Indicador de progreso.
+Ejemplo:
+TOTAL
+$450.000
+RECAUDADO
+$270.000
+PENDIENTE
+$180.000
+3 DE 5 PERSONAS HAN PAGADO.
+Mostrar un indicador circular de progreso animado.
+Mostrar el código QR de forma grande y fácilmente escaneable.
+Incluir un botón para consultar los detalles del cobro.
+5.4. SEGUIMIENTO DE PAGOS EN TIEMPO REAL
+Mostrar una lista dinámica de participantes.
+Ejemplo:
+Juan — $90.000 — PAGADO.
+María — $90.000 — PAGADO.
+Pedro — $90.000 — PAGADO.
+Laura — $90.000 — PENDIENTE.
+Andrés — $90.000 — PENDIENTE.
+Cuando una persona pague:
+Actualizar el estado.
+Incrementar el dinero recaudado.
+Reducir el dinero pendiente.
+Actualizar el progreso.
+Mostrar una animación de confirmación.
+Mostrar una notificación al anfitrión.
+Utilizar actualizaciones en tiempo real cuando se implemente el backend.
+5.5. MODO PARTICIPANTE
+Cuando alguien escanee el QR del datáfono, accederá a una pantalla de pago.
+Mostrar:
+Nombre de quien cobra.
+Nombre del establecimiento.
+Concepto.
+Importe que debe pagar.
+Número de personas que participan.
+Métodos de pago disponibles.
+El usuario podrá:
+Confirmar el importe.
+Seleccionar tarjeta.
+Seleccionar QR/Bre-B.
+Confirmar el pago.
+Después de realizar el pago, mostrar una animación de éxito.
+Actualizar automáticamente el datáfono del anfitrión cuando se confirme la operación.
+Permitir que el participante acceda a su comprobante.
+5.6. PARCHE FLEX
+Incluir una funcionalidad avanzada que permita combinar distintos métodos de pago y
+cantidades.
+Ejemplo:
+Factura: $360.000.
+Participantes:
+Juan: $60.000 — Bre-B.
+María: $60.000 — Tarjeta.
+Pedro: $120.000 — Bre-B.
+Laura: $40.000 — Tarjeta.
+Andrés: $40.000 — Bre-B.
+Sofía: $40.000 — Tarjeta.
+Cada persona puede pagar una cantidad diferente y utilizar su método de pago preferido.
+También permitir:
+Una persona paga por dos participantes.
+Una persona cubre la totalidad.
+Pagos parciales.
+Importes personalizados.
+Participantes que todavía no se han unido.
+5.7. CIERRE DEL COBRO
+Cuando se recaude el importe total:
+Mostrar una animación de éxito.
+Mostrar "CUENTA SALDADA".
+Mostrar el total recibido.
+Mostrar el número de participantes.
+Mostrar los métodos de pago utilizados.
+Generar un comprobante general.
+Generar comprobantes individuales.
+Permitir cerrar anticipadamente una sesión, conservando el historial y mostrando cualquier
+saldo pendiente.
+6. BOLSILLOS COMPARTIDOS — PARCHE POCKETS
+Crear un sistema inspirado en Shared Pockets de Revolut.
+Los usuarios podrán crear espacios de ahorro y administración de dinero compartido.
+Ejemplos:
+Viaje a Cartagena.
+Arriendo.
+Mercado del mes.
+Gastos de pareja.
+Regalo de cumpleaños.
+Vacaciones.
+Salidas con amigos.
+Cada bolsillo debe tener:
+Nombre.
+Icono o imagen.
+Descripción.
+Meta de ahorro.
+Saldo actual.
+Participantes.
+Fecha de creación.
+Historial.
+Aportaciones individuales.
+FUNCIONALIDADES:
+Crear bolsillo.
+Invitar personas.
+Añadir dinero.
+Solicitar aportaciones.
+Consultar saldo.
+Consultar quién aportó.
+Registrar gastos.
+Consultar movimientos.
+Mostrar progreso de ahorro.
+Ejemplo:
+VIAJE A CARTAGENA.
+Objetivo: $2.000.000.
+Saldo: $1.250.000.
+Progreso: 62,5 %.
+Participantes: 4.
+Mostrar cuánto ha aportado cada persona.
+Diferenciar claramente los bolsillos de los divisores de cuentas: los bolsillos son espacios de
+administración y ahorro compartido.
+7. CUENTAS CONJUNTAS — PARCHE JOINT
+Crear una funcionalidad inspirada en Joint Accounts de Revolut.
+Permitir crear espacios financieros compartidos entre dos o más personas.
+Casos de uso:
+Parejas.
+Familias.
+Compañeros de apartamento.
+Socios.
+FUNCIONALIDADES:
+Crear cuenta conjunta.
+Invitar participantes.
+Establecer permisos.
+Registrar ingresos.
+Registrar gastos.
+Consultar saldo.
+Consultar movimientos.
+Establecer límites.
+Consultar aportaciones.
+Consultar estadísticas.
+Mostrar un dashboard financiero conjunto con ingresos, gastos y saldo.
+Diferenciar visualmente las cuentas conjuntas de los bolsillos compartidos.
+8. PARCHE KEYS — LLAVES COLOMBIANAS
+Crear una sección inspirada en el ecosistema de llaves de Bre-B.
+Permitir que los usuarios gestionen identificadores asociados a su perfil.
+Tipos:
+Número de celular.
+Documento de identidad.
+Correo electrónico.
+Llave alfanumérica.
+Crear una pantalla llamada "Mis llaves".
+Mostrar:
+Tipo de llave.
+Identificador.
+Estado.
+Entidad financiera asociada, cuando corresponda.
+Incluir:
+Copiar llave.
+Compartir llave.
+Consultar llaves.
+Iniciar una solicitud de transferencia.
+Buscar un destinatario por llave.
+Preparar la arquitectura para una futura integración con proveedores participantes de Bre-B.
+IMPORTANTE: No afirmar que las llaves están registradas realmente en Bre-B si no existe una
+integración autorizada.
+9. TRANSFERENCIAS Y SOLICITUDES
+Crear una sección para:
+Enviar dinero.
+Solicitar dinero.
+Recibir solicitudes.
+Consultar transferencias.
+Compartir enlaces de cobro.
+Consultar personas frecuentes.
+Permitir generar solicitudes de dinero con:
+Importe.
+Concepto.
+Destinatario.
+Fecha.
+Estado.
+Toda operación debe tener una pantalla de confirmación.
+10. ACTIVIDAD E HISTORIAL
+Crear un historial financiero completo.
+Filtros:
+Todos.
+Ingresos.
+Gastos.
+Transferencias.
+Bolsillos.
+Cuentas conjuntas.
+Parche Bills.
+Parche Tap.
+Mostrar:
+Fecha.
+Concepto.
+Importe.
+Participantes.
+Método de pago.
+Estado.
+Comprobante.
+11. NOTIFICACIONES
+Crear un centro de notificaciones.
+Notificaciones para:
+Solicitudes de pago.
+Pagos recibidos.
+Nuevas aportaciones.
+Invitaciones.
+Recordatorios.
+Cuentas saldadas.
+Nuevos movimientos.
+Utilizar notificaciones visuales dentro de la aplicación.
+12. PERFIL Y SEGURIDAD
+Crear un perfil de usuario con:
+Fotografía.
+Nombre.
+Correo.
+Celular.
+Información personal.
+Mis llaves.
+Seguridad.
+Privacidad.
+Notificaciones.
+Cerrar sesión.
+Implementar autenticación y proteger las secciones privadas.
+13. DATOS Y BACKEND
+Utilizar:
+React.
+TypeScript.
+Tailwind CSS.
+Supabase.
+PostgreSQL.
+Supabase Auth.
+Supabase Realtime.
+Lucide Icons.
+Diseñar una base de datos escalable.
+Crear tablas para:
+Usuarios.
+Perfiles.
+Participantes.
+Grupos.
+Cuentas divididas.
+Bolsillos.
+Cuentas conjuntas.
+Transacciones.
+Solicitudes de pago.
+Sesiones PARCHE TAP.
+Participantes de sesiones.
+Métodos de pago.
+Llaves.
+Notificaciones.
+Comprobantes.
+Implementar políticas de seguridad RLS para que cada usuario solamente pueda acceder a la
+información que le corresponde.
+Las operaciones financieras deben gestionarse desde el backend y no confiar en importes o
+estados enviados directamente por el cliente.
+Preparar una arquitectura para integrar proveedores financieros colombianos.
+14. SEGURIDAD E INTEGRACIONES FINANCIERAS
+MUY IMPORTANTE:
+La primera versión debe ser un prototipo funcional con transacciones simuladas.
+No ejecutar pagos reales.
+No almacenar datos completos de tarjetas.
+No simular confirmaciones bancarias como si fueran reales.
+Preparar integraciones futuras con:
+Bre-B.
+Proveedores de adquirencia.
+Pasarelas de pago.
+Soluciones SoftPOS.
+Webhooks.
+Conciliación financiera.
+El sistema debe diferenciar claramente entre:
+Pago pendiente.
+Pago en proceso.
+Pago confirmado.
+Pago rechazado.
+Pago cancelado.
+Un pago solamente puede marcarse como confirmado cuando el backend recibe una
+confirmación verificable del proveedor financiero.
+Para Bre-B, utilizar la integración autorizada de un participante o proveedor habilitado. Para
+tarjetas, utilizar una pasarela o adquirente que soporte los métodos correspondientes.
+15. DATOS DE DEMOSTRACIÓN
+La aplicación debe tener datos ficticios desde el primer momento.
+Crear:
+Usuarios colombianos ficticios.
+Fotografías de perfil.
+Grupos de amigos.
+Cuentas de restaurantes.
+Bolsillos de viajes.
+Cuentas conjuntas.
+Movimientos financieros.
+Pagos simulados.
+Incluir una demostración de PARCHE TAP con una factura de $450.000 y cinco participantes.
+Permitir probar el flujo completo de creación de cobro, selección de participantes, simulación
+de pagos y cierre de la cuenta.
+Identificar claramente los pagos como simulados.
+16. EXPERIENCIA FINAL Y PRIORIDADES
+Quiero que PARCHE parezca una fintech real y esté al nivel visual de las aplicaciones
+financieras modernas.
+Priorizar:
+PARCHE TAP: datáfono social multipersona.
+PARCHE BILLS: divisor inteligente de cuentas.
+PARCHE POCKETS: bolsillos compartidos.
+PARCHE JOINT: cuentas conjuntas.
+PARCHE KEYS: llaves colombianas.
+Transferencias y solicitudes.
+El diseño debe ser coherente en todas las secciones.
+No crear botones decorativos.
+Todos los botones deben ejecutar acciones reales dentro del prototipo.
+Todos los formularios deben validar datos.
+Todos los importes deben actualizarse correctamente.
+La aplicación debe ser responsive y estar optimizada principalmente para celulares.
+Construir una experiencia intuitiva, rápida, visual y agradable.
+El resultado debe sentirse como el lanzamiento de una nueva fintech colombiana, no como un
+ejercicio académico.
